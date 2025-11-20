@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body,html{
+    background-color: lightgray;
+}
+
+header{
+    background-color: rgb(36, 37, 41);
+}
+
+header h1{ 
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+header  ul{
+    list-style: none;
+}
+header li{
+    display: inline-block;
+    color: white;
+    background-color: rgba(55, 61, 61, 0.712);
+    margin: 5px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.801);
+}
+a:hover{
+    color: rgba(14, 111, 238, 0.76);
+}
+
+main{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: justify;
+    background-color: rgba(28, 28, 39, 0.329);
+    border-radius: 10px;
+}
+
+main article > p{
+    text-align: justify;
+}
+
+#droid{
+    display: none;
+  
+    }
+@media screen and (min-width: 300px) and (max-width: 670px) {/*M*/
+
+    menu#itens {
+        display: none;
+    }
+
+    menu#itens ul li {
+        display: block;
+    }
+
+    span#droid{
+    background-color: rgb(48, 48, 48);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    cursor: pointer;    
+    }
+    header h1{
+    text-align: center;
+    }
+    header li{
+    background-color: rgba(55, 61, 61, 0.911);
+    color: white;
+    display: none;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+}
