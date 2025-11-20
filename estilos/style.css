@@ -56,8 +56,9 @@ main article > p{
 
 #droid{
     display: none;
+  
 }
-@media screen and (min-width: 300px) and (max-width: 670px) {/*M*/
+@media screen and (min-width: 300px) and (max-width: 768px) {/*M*/
 
     menu#itens {
         display: none;
@@ -87,4 +88,3 @@ main article > p{
     margin-bottom: 10px;
     }
 }
-
