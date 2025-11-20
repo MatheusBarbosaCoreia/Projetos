@@ -41,7 +41,7 @@ a:hover{
 
 main{
     width: 90%;
-    max-width: 600px;
+    max-width: 768px;
     margin: auto;
     padding: 10px;
     margin-top: 10px;
@@ -88,3 +88,4 @@ main article > p{
     margin-bottom: 10px;
     }
 }
+
